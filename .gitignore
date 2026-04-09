@@ -1,0 +1,26 @@
+# 敏感信息
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+tokens/
+credentials/
+*config*.json
+*.token
+*.secret
+
+# 日志
+logs/
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 系统文件
+.DS_Store
+Thumbs.db
